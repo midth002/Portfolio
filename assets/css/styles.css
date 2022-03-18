@@ -6,6 +6,7 @@
 body {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin: 0;
 }
 
@@ -123,6 +124,48 @@ main h2 {
     border: 2px solid red;
 }
 
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    width:50%;
+    justify-content: center;
+    /* margin: 20px; */
+   
+}
+
 form {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.input {
+    height: 50px;
+    font-size: 16px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width:100%;
+    margin: 10px 0;
+}
+
+#name {
+    width: 50%;
+}
+
+#email {
+    width: 50%;
+}
+
+#send-message {
+    width: 30%;
+    height: 8vh;
+    background-color: seagreen;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+}
+
+form textarea {
+    width: 80%;
+    margin-right: 20%;
+    margin: 10px 0;
 }
