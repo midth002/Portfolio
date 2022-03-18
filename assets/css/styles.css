@@ -10,6 +10,10 @@ body {
     margin: 0;
 }
 
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
 nav {
     position: fixed;
     background-color: black;
@@ -18,7 +22,6 @@ nav {
     opacity: 0.7;
     height: 10vh;
     
-   
 }
 
 h2 {
@@ -109,7 +112,6 @@ main {
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    border: 2px solid red;
     width: 100%;
 }
 
@@ -124,11 +126,12 @@ main h2 {
     border: 2px solid red;
 }
 
-.contact {
+footer {
     display: flex;
+    background-color: #2e2e2e;
     flex-wrap: wrap;
-    width:50%;
     justify-content: center;
+    width: 100%;
     /* margin: 20px; */
    
 }
@@ -148,11 +151,12 @@ form {
 }
 
 #name {
-    width: 50%;
+    width: 48%;
+    margin-right: 4%;
 }
 
 #email {
-    width: 50%;
+    width: 48%;
 }
 
 #send-message {
@@ -162,10 +166,40 @@ form {
     border-style: none;
     border-radius: 10px;
     color: white;
+    margin: 30px 0;
 }
 
-form textarea {
-    width: 80%;
+/* form textarea { 
+    width: 100%;
     margin-right: 20%;
     margin: 10px 0;
+ } */
+
+.my-contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 80%;
+    background-color: rgb(179, 179, 179);
+    margin: 5%;
+    border-radius: 10px;
+    
+}
+
+.my-contact-info p {
+    margin: 10px 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.my-contact-info a {
+    text-decoration: none;
+}
+
+.my-contact-info a:hover {
+   color: blue;
+}
+
+#contact-me {
+    width: 80%;
+    text-align: center;
 }
