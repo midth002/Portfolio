@@ -2,6 +2,8 @@
     margin: 0 auto;
     box-sizing: border-box;
     padding: 0;
+    
+    
 }
 body {
     display: flex;
@@ -20,8 +22,7 @@ nav {
     width: 100%;
     padding: 10px;
     height: 8vh;
-    z-index: 3;
-    
+    z-index: 3;  
 }
 
 h2 {
@@ -32,13 +33,10 @@ h2 {
 nav div {
     padding-top: 5px;
     display: flex;
-    width: 95%;
-    
-    /* border: 2px solid red; */
+    width: 90%;
 }
 
 nav h1 a {
-    /* width: 100%; */
     float: left;
     color: white;
     font-weight: 400;
@@ -51,7 +49,6 @@ nav h1 a {
 
 header>h1 {
     color: whitesmoke;
-    position: relative;
     top: 200px;
     left: 125px;
     font-size: 40px;
@@ -59,7 +56,6 @@ header>h1 {
 }
 
 nav ul {
-    /* margin-top: 5px; */
     display: flex;
     float: right;
     margin: auto;
@@ -69,8 +65,7 @@ nav ul li {
     list-style: none;
     margin-left: 50px;
     font-size: 20px;
-    font-family: 'Raleway', sans-serif;
-   
+    font-family: 'Raleway', sans-serif;  
 }
 
 nav ul li a {
@@ -100,8 +95,7 @@ header {
     flex-wrap: wrap;
     float: left;
     width: 60%;
-    line-height: 1.7;
-   
+    line-height: 1.7; 
 }
 
 .content p {
@@ -139,9 +133,7 @@ footer {
     background-color: #2e2e2e;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    /* margin: 20px; */
-   
+    width: 100%;  
 }
 
 form {
@@ -177,22 +169,14 @@ form {
     margin: 30px 0;
 }
 
-/* form textarea { 
-    width: 100%;
-    margin-right: 20%;
-    margin: 10px 0;
- } */
-
 .my-contact-info {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: space-between; */
     justify-content: center;
     width: 40%;
     background-color: rgb(179, 179, 179);
     margin: 2%;
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 
 .my-contact-info p {
@@ -209,7 +193,7 @@ form {
 }
 
 #contact-me {
-    width: 80%;
+    /* width: 80%; */
     text-align: center;
     color: white;
     font-size: 20px;
@@ -219,11 +203,11 @@ form {
 figure img {
     width: 100%;
     height: 100%;
-    opacity: 0.75;
+    opacity: 0.68;
 }
 
 figure img:hover {
-    opacity: 0.4;
+    opacity: 1;
     background-color: black;
 }
 
