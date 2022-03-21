@@ -20,7 +20,7 @@ nav {
     width: 100%;
     padding: 10px;
     opacity: 0.7;
-    height: 10vh;
+    height: 8vh;
     
 }
 
@@ -37,12 +37,15 @@ nav div {
     /* border: 2px solid red; */
 }
 
-nav h1 {
+nav h1 a {
     width: 40%;
     float: left;
     color: white;
     font-weight: 400;
+    font-size: 23px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    padding-bottom: 4px;
     
 }
 
@@ -76,7 +79,7 @@ header {
     background-size: cover; /* Resizes the background image so that it covers the entire container */
 }
 
-.about-me {
+#about-me {
     /* display: flex;  */
     border: 2px solid red;
     padding: 20px;
@@ -178,10 +181,11 @@ form {
 .my-contact-info {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    width: 80%;
+    /* justify-content: space-between; */
+    justify-content: center;
+    width: 40%;
     background-color: rgb(179, 179, 179);
-    margin: 5%;
+    margin: 2%;
     border-radius: 10px;
     
 }
@@ -203,4 +207,6 @@ form {
     width: 80%;
     text-align: center;
     color: white;
+    font-size: 20px;
+    padding: 20px 0 0 0;
 }
