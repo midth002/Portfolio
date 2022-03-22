@@ -41,6 +41,10 @@ nav {
     z-index: 3;  
 }
 
+nav .icon {
+    display: none;
+}
+
 
 nav div {
     padding-top: 5px;
@@ -210,7 +214,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 40%;
+    width: 60%;
     margin: 2%;
 }
 
@@ -241,3 +245,39 @@ footer {
 
 
 /* Media selection for different screen sizes */
+
+/* For screens at 992px or smaller for tablets */
+@media screen and (max-width: 1240px) {
+    figure {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    figure {
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    nav h1 {
+        display: none;
+    }
+
+    nav {
+        align-items: center;
+    }
+
+    nav .icon {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        margin-top: 6px;
+    }
+
+    nav ul  {
+        margin-top: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+}
