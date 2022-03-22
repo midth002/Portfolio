@@ -134,7 +134,7 @@ main h2 {
 }
 
 /* Styling for the bottom left of the project images with title and description */
-.box {
+figcaption {
     position: relative;
     top: -12.9%;
     left: -30%;
@@ -146,7 +146,7 @@ main h2 {
     border-radius: 0 23px 23px 0;
 }
 
-.box p {
+figcaption p {
     font-size: 12px;
 }
 
