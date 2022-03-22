@@ -36,12 +36,13 @@ nav {
     position: fixed;
     background-color: #0A2239;
     width: 100%;
-    padding: 10px;
-    height: 8vh;
+    padding: 5px;
+    height: 12vh;
     z-index: 3;  
 }
 
-nav .icon {
+/* Home link. Default display is hidden. */
+#home-link {
     display: none;
 }
 
@@ -52,7 +53,7 @@ nav div {
     width: 90%;
 }
 
-/* Link for my heading name on the top left */
+/* Link for my heading name on the top left. */
 nav h1 a {
     float: left;
     color: white;
@@ -61,6 +62,7 @@ nav h1 a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: none;
     padding-bottom: 4px;
+    
 }
 
 /* Any h1 in the header section as a child to the header */
@@ -119,8 +121,8 @@ article p {
 
 section img {
     width: 35%;
-    display: flex;
     justify-content: center;
+
 }
 
 /* Project Styling section */
@@ -253,31 +255,64 @@ footer {
     }
 }
 
+/* Increase the size of the figures widths */
 @media screen and (max-width: 992px) {
     figure {
         width: 85%;
     }
-}
 
+    nav {
+        height: 8vh;
+    }
+
+
+
+}
+/* For smaller phones. Display the home icon and hide my name */
 @media screen and (max-width: 576px) {
     nav h1 {
-        display: none;
+       display: block;
+       width: 100%;
+    }
+
+    #fullStackDeveloper {
+       font-size: 25px;
+       left: 20px;
     }
 
     nav {
-        align-items: center;
+        height: 25%;
     }
 
-    nav .icon {
+    /* Display the hidden link */
+    #home-link {
         display: flex;
-        width: 30px;
-        height: 30px;
-        margin-top: 6px;
     }
 
     nav ul  {
-        margin-top: 10px;
+        display: block;
         width: 100%;
-        flex-wrap: wrap;
+        text-align: right;
     }
+
+    nav ul li {
+        margin: 5px 0;
+    }
+
+    #about-me {
+        display: block;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    section img {
+        width: 100%;
+    }
+
+    nav {
+        height: 15%;
+    }
+
 }
